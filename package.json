@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "express": "^4.16.3",
+    "formstream": "^1.1.0",
+    "images": "^3.0.1",
+    "mysql": "^2.15.0",
+    "qr-image": "^3.2.0",
+    "request": "^2.87.0",
+    "sharp": "^0.20.5",
+    "wechat-api": "^1.35.1",
+    "xml2js": "^0.4.19"
+  }
+}

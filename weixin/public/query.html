@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>推广查询</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+    <meta name="format-detection" content="telephone=no"><meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/extensionQuery/extensionQuery.css">
+</head>
+<body>
+<div class="query_input">
+    <div class="query_box">
+        <lable class="label_1">查询:</lable>
+        <input type="text" placeholder="请输入您的openID" class="inp_text">
+        <button class="btn search">搜索</button>
+        <button class="btn empty">清空</button>
+    </div>
+</div>
+<div class="list_kong">
+    <span>您没有邀请过用户</span>
+</div>
+<div class="table_box">
+    <div class="table_box_bian">
+        <table class="table">
+            <tr>
+                <th>序号</th>
+                <th>openID</th>
+                <th>推荐人</th>
+                <th>昵称</th>
+                <th class="last_th">邀请时间</th>
+            </tr>
+        </table>
+    </div>
+</div>
+<script src="./js/common/rem.js" charset="utf-8" type="text/javascript"></script>
+<script src="./js/common/jquery.js" charset="utf-8" type="text/javascript"></script>
+<script src="./js/common/common.js" charset="utf-8" type="text/javascript"></script>
+<script src="./js/extension_query/extension.js"></script>
+</body>
+</html>

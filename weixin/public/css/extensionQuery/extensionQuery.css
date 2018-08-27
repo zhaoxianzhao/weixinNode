@@ -1,0 +1,107 @@
+body{
+    overflow: hidden;
+}
+.query_input{
+    background: #fff;
+    width: 100%;
+    /*background: red;*/
+    text-align: center;
+    font-size: 0.24rem;
+    padding:0.2rem 0;
+}
+.label_1{
+    display: inline-block;
+    width: 1.5rem;
+    vertical-align: middle;
+}
+.inp_text{
+    width: 3rem;
+    padding-left: 0.25rem;
+    height: 0.5rem;
+    outline: none;
+    border: 1px solid #666;
+    border-radius:5px;
+    font-size: 0.24rem;
+    text-align: left;
+}
+.btn{
+    width: 1.3rem;
+    font-size: 0.24rem;
+    border-radius: 5px;
+    border: 0;
+    height: 0.5rem;
+    vertical-align: initial;
+    outline:none;
+    cursor: pointer;
+    margin-left: 0.1rem;
+}
+.search{
+    background: #3385ff;
+}
+.empty{
+    border: 1px solid #3385ff;
+    color:#3385ff;
+    background: #fff;
+}
+.list_kong{
+    width: 100%;
+    margin: 0 auto;
+    height: 2rem;
+    text-align: center;
+    display: none;
+    background: #fff;
+}
+.list_kong span{
+    font-size: 0.24rem;
+}
+
+.table_box{
+    margin-top: 0.2rem;
+    width: 100%;
+    background: #fff;
+    overflow: hidden;
+}
+.table_box_bian{
+    width: 10.24rem;
+    border: 1px solid #666;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+}
+.table{
+    width: 10.24rem;
+}
+.table tr{
+   height: 0.6rem;
+}
+.table tr th{
+    position: relative;
+    padding: 0 0.2rem;
+    border-bottom: 1px solid #666;
+    font-weight: 400;
+    font-size: 0.24rem;
+}
+.table tr td{
+    font-size: 0.2rem;
+    border-bottom: 1px solid #666;
+    text-align: center;
+    position: relative;
+    color:#1e3ede;
+}
+.table tr th:after{
+    content: '|';
+    position: absolute;
+    right: 0;
+    color: #666;
+}
+.table tr td:after{
+    content: '|';
+    position: absolute;
+    right: 0;
+    color: #666;
+}
+.last_th:after{
+    display: none;
+}

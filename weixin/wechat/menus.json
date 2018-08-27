@@ -1,0 +1,9 @@
+{
+     "button":[
+        {	
+          "type":"click",
+          "name":"获取您的专属二维码",
+           "key":"QR_code"
+        }
+     ]
+}

@@ -1,0 +1,13 @@
+{
+    "token":"zhaoxianchao",
+    "appID":"",
+    "appScrect":"",
+    "encodingAESKey":"",
+    "apiDomain":"https://api.weixin.qq.com/",
+    "apiURL":{
+        "accessTokenApi":"%scgi-bin/token?grant_type=client_credential&appid=%s&secret=%s",
+        "createMenu":"%scgi-bin/menu/create?access_token=%s",
+        "uploadFile": "%scgi-bin/media/upload?access_token=%s&type=%s",
+        "customService": "%scgi-bin/message/custom/send?access_token=%s"
+    }
+}
